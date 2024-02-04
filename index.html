@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotus</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./images/favicon.png">
+
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+
+</head>
+
+<body>
+    <div class="navbar">
+        <h1 class="navimg" alt="vidME"><b style="color: rgb(37, 0, 70);">Lot</b><b
+                style="color: rgb(143, 2, 194);">us</b></h1>
+        <nav class="navlinks">
+            <a class="nava-active" href="#">Home</a>
+            <a class="nava" href="#">Movies</a>
+            <a class="nava" href="#">Shows</a>
+            <a class="nava" href="#">Music</a>
+            <a class="nava-don" href="#">Donate</a>
+            <a class="nava-prem" href="#">LogIn</a>
+        </nav>
+    </div>
+    <div class="header">
+        <div class="content">
+            <h2 class="text">Watch our popular movies</h2>
+            <div class="buttons">
+                <button class="button1" onclick="redirectToMovie()">Watch movies</button>
+                <button class="button2" onclick="redirectToDonate()">Donate</button>
+            </div>
+        </div>
+    </div>
+    <div class="login">
+        <a class="hreflogin" href="#">Login</a>
+      </div>
+
+
+    <div class="container swiper">
+        <div class="slide-container">
+            <h1 style="text-align: center; margin-bottom: 5px;">Movies</h1>
+            <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/showImg/fullDev.jpg" alt="" />
+                    </div>
+                    <div class="profile-details">
+                        <img src="images/profile/profile1.jpg" alt="" />
+                        <div class="name-job">
+                            <h3 class="name">David Cardlos</h3>
+                            <h4 class="job">Full Stack Developer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/showImg/photographer.jpg" alt="" />
+                    </div>
+                    <div class="profile-details">
+                        <img src="images/profile/profile2.jpg" alt="" />
+                        <div class="name-job">
+                            <h3 class="name">Siliana Ramis</h3>
+                            <h4 class="job">Photographer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/showImg/dataAna.jpg" alt="" />
+                    </div>
+                    <div class="profile-details">
+                        <img src="images/profile/profile3.jpg" alt="" />
+                        <div class="name-job">
+                            <h3 class="name">Richard Bond</h3>
+                            <h4 class="job">Data Analyst</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/showImg/appDev.jpg" alt="" />
+                    </div>
+                    <div class="profile-details">
+                        <img src="images/profile/profile4.jpg" alt="" />
+                        <div class="name-job">
+                            <h3 class="name">Priase</h3>
+                            <h4 class="job">App Developer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/showImg/blogger.jpg " alt=""/>
+                    </div>
+                    <div class="profile-details">
+                        <img src="images/profile/profile5.jpg" alt=""/>
+                        <div class="name-job">
+                            <h3 class="name">James Laze</h3>
+                            <h4 class="job">Blogger</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="btnss1">
+        <button class="btnss11" onclick="redirectToMovie()">Watch Movies</button>
+    </div>
+    <hr>
+
+    <div class="container swiper">
+        <div class="slide-container">
+            <h1 style="text-align: center; margin-bottom: 5px;">Shows</h1>
+            <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/showImg/fullDev.jpg" alt="" />
+                    </div>
+                    <div class="profile-details">
+                        <img src="images/profile/profile1.jpg" alt="" />
+                        <div class="name-job">
+                            <h3 class="name">David Cardlos</h3>
+                            <h4 class="job">Full Stack Developer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/showImg/photographer.jpg" alt="" />
+                    </div>
+                    <div class="profile-details">
+                        <img src="images/profile/profile2.jpg" alt="" />
+                        <div class="name-job">
+                            <h3 class="name">Siliana Ramis</h3>
+                            <h4 class="job">Photographer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/showImg/dataAna.jpg" alt="" />
+                    </div>
+                    <div class="profile-details">
+                        <img src="images/profile/profile3.jpg" alt="" />
+                        <div class="name-job">
+                            <h3 class="name">Richard Bond</h3>
+                            <h4 class="job">Data Analyst</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/showImg/appDev.jpg" alt="" />
+                    </div>
+                    <div class="profile-details">
+                        <img src="images/profile/profile4.jpg" alt="" />
+                        <div class="name-job">
+                            <h3 class="name">Priase</h3>
+                            <h4 class="job">App Developer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/showImg/blogger.jpg" alt="" />
+                    </div>
+                    <div class="profile-details">
+                        <img src="images/profile/profile5.jpg" alt="" />
+                        <div class="name-job">
+                            <h3 class="name">James Laze</h3>
+                            <h4 class="job">Blogger</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="btnss1">
+        <button class="btnss11" onclick="redirectToShows()">Watch Shows</button>
+    </div>
+    <hr>
+
+    <div class="container swiper">
+        <div class="slide-container">
+            <h1 style="text-align: center; margin-bottom: 5px;">Music</h1>
+            <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/showImg/fullDev.jpg" alt="" />
+                    </div>
+                    <div class="profile-details">
+                        <img src="images/profile/profile1.jpg" alt="" />
+                        <div class="name-job">
+                            <h3 class="name">David Cardlos</h3>
+                            <h4 class="job">Full Stack Developer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/showImg/photographer.jpg" alt="" />
+                    </div>
+                    <div class="profile-details">
+                        <img src="images/profile/profile2.jpg" alt="" />
+                        <div class="name-job">
+                            <h3 class="name">Siliana Ramis</h3>
+                            <h4 class="job">Photographer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/showImg/dataAna.jpg" alt="" />
+                    </div>
+                    <div class="profile-details">
+                        <img src="images/profile/profile3.jpg" alt="" />
+                        <div class="name-job">
+                            <h3 class="name">Richard Bond</h3>
+                            <h4 class="job">Data Analyst</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/showImg/appDev.jpg" alt="" />
+                    </div>
+                    <div class="profile-details">
+                        <img src="images/profile/profile4.jpg" alt="" />
+                        <div class="name-job">
+                            <h3 class="name">Priase</h3>
+                            <h4 class="job">App Developer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="images/showImg/blogger.jpg" alt="" />
+                    </div>
+                    <div class="profile-details">
+                        <img src="images/profile/profile5.jpg" alt="" />
+                        <div class="name-job">
+                            <h3 class="name">James Laze</h3>
+                            <h4 class="job">Blogger</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="btnss1">
+        <button class="btnss11" onclick="redirectToMusic()">Listen Music</button>
+    </div>
+    
+<div class="donate">
+    <h1 class="donh1">Donate to Charity</h1>
+    <a class="dona" href="#">Donate</a>
+</div>
+<hr>
+<div class="footer">
+    <h3 class="footh1">Copyright 2024. All rights reserved</h1>
+</div>
+
+
+    <script>
+        function redirectToMovie() {
+            window.location = "movies.html";
+        }
+        function redirectToDonate() {
+            window.location = "donate.html";
+        }
+        function redirectToShows(){
+            window.location = "shows.html"
+        }
+        function redirectToMusic(){
+            window.location = "music.html"
+        }
+        function redirectToPremium(){
+            window.location = "premium.html"
+        }
+    </script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
